@@ -95,12 +95,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden; }
 
+  #home{
+    background: #252934;
+  }
 
 .disable-hover {
   pointer-events: none; }
 
-.overflow-wrap {
-  overflow-x: hidden; }
 
 .canvas {
   position: absolute;
@@ -113,6 +114,29 @@ body {
 
   /* BUTTON */
 
+  .button_about{
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    font-size: 13pt;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 53px;
+  }
+  
+  .button_about:hover{
+    background-color: #04C2C9;
+    border: 3px solid #04C2C9;;
+    padding-right: 35px;
+    border-top: 1px solid #04C2C9;
+    }
+    
+  .button_about:hover .mdi{
+      transition: transform .3s;
+      position: absolute;
+      transform: rotate(90deg); 
+      }
+
 .button {
   padding: 10px 20px;
   border: 2px solid #fff;
@@ -122,7 +146,7 @@ body {
   transition: all .5s;
   cursor: pointer; }
 
-  
+
   .button:hover {
     background-color: #04C2C9;
     border-color: #04C2C9; }
@@ -229,8 +253,9 @@ nav {
   top: 0;
   height: 50px;
   width: 100%;
-  background: #252934;
+  background: #1B242F;
   text-align: center;
+  border-bottom: 2px solid  #252934;
   z-index: 99; }
 
   nav.fixed {
@@ -246,7 +271,7 @@ nav {
     width: 100%;
     position: absolute;
     top: 50px;
-    background: #252934;
+    background:  #1B242F;
     overflow: hidden;
     height: 0;
     transition: height .3s ease-out; }
@@ -425,9 +450,7 @@ section {
     padding: 0 10px;
     color: #fff;
     height: calc(100vh + 53px); }
-    section:nth-of-type(1) .highlight {
- 
-     }
+    
     section:nth-of-type(1) .text {
       margin: 0 0 20px 0;
       font-size: 16pt;
@@ -438,19 +461,15 @@ section {
       transition: transform .9s ease-in-out; }
       section:nth-of-type(1) .hexagon:hover {
         transform: rotate(540deg); }
-    section:nth-of-type(1) .button {
-      padding: 12px 40px 12px 15px;
-      position: relative;
-      margin-bottom: 53px; }
-      section:nth-of-type(1) .button .mdi {
-        transition: transform .3s;
-        position: absolute;
-        right: 15px;
-        top: 11px; }
-      section:nth-of-type(1) .button:hover .mdi {
-        transform: rotate(90deg); }
+
+      
+ 
   section:nth-of-type(2) .label-wrap .label {
     margin: 20px 0 10px 0; }
+
+    section:nth-of-type(2){
+      background: #F5F5F5;
+    }
   section:nth-of-type(2) .bullet-wrap {
     justify-content: flex-start;
     padding: 0 7px;
@@ -537,6 +556,7 @@ section {
   section:nth-of-type(3) {
     background: #f5f5f5; }
     section:nth-of-type(3) .container {
+
       padding: 0; }
     section:nth-of-type(3) .filter-wrap {
       position: relative; }
@@ -603,29 +623,29 @@ section {
           background: #E31B6D;
           color: #fff; }
         section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-          background: url("/images/filler.png") center center/cover; }
+          background: url("images/filler.png") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-          background: url("/images/filler.png") center center/cover; }
+          background: url("images/filler.png") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-          background: url("/images/filler.png") center center/cover; }
+          background: url("images/filler.png") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-          background: url("/images/filler.png") center center/cover; }
+          background: url("images/filler.png") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
-          background: url("/images/filler.png") center center/cover; }
+          background: url("images/filler.png") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-          background: url("/images/filler.png") center center/cover; }
+          background: url("images/filler.png") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
-          background: url("/images/filler.png") center center/cover; }
+          background: url("images/filler.png") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
-          background: url("/images/filler.png") center center/cover; }
+          background: url("images/filler.png") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
-          background: url("/images/filler.png") center center/cover; }
+          background: url("images/filler.png") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
-          background: url("/images/filler.png") center center/cover; }
+          background: url("images/filler.png") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
-          background: url("/images/filler.png") center center/cover; }
+          background: url("images/filler.png") center center/cover; }
         section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
-          background: url("/images/filler.png") center center/cover; }
+          background: url("images/filler.png") center center/cover; }
         section:nth-of-type(3) #gallery .mix .card {
           height: 240px;
           max-width: 100%;
@@ -729,10 +749,10 @@ footer {
     right: 0;
     margin: 0 auto;
     cursor: pointer;
-    transition: background .2s; }
+    transition: background 0.3s, transform 0.3s; }
     footer .mdi-chevron-double-up:hover {
       transform: scale(0.9); 
-      transition: transform .2s;
+      transition: background 0.3s, transform 0.3s;
       background: #fb1f79; }
   footer .icon-wrap .icon {
     overflow: hidden;
@@ -843,10 +863,6 @@ footer {
     section:nth-of-type(1) .text {
       font-size: 32pt;
       line-height: 36pt; }
-    section:nth-of-type(1) .button {
-      padding: 12px 50px 12px 20px; }
-      section:nth-of-type(1) .button .mdi {
-        top: 16px; }
     section:nth-of-type(2) .label-wrap .label {
       margin: 15px 0 5px 0; }
     section:nth-of-type(2) .label-wrap > div {
@@ -935,7 +951,7 @@ footer {
   section:nth-of-type(2) .bars-wrap {
     margin: 0 0 0 0; }
   section:nth-of-type(2) .skills-wrapper {
-    margin: 50px 0 0 0; }
+    margin: 0px 0 0 0; }
     section:nth-of-type(2) .skills-wrapper .me {
       margin: 0; }
   section:nth-of-type(2) .bar {
