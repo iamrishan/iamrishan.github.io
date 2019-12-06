@@ -3,21 +3,25 @@
 <head>
   <title>iamrishan</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
   <!-- HOSTED -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet" type='text/css'>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/4.4.95/css/materialdesignicons.css"
     media="all" rel="stylesheet" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
   <!-- LOCAL -->
+  <script src="scripts/index.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon' />
-  <script src="scripts/index.js"></script>
+
 </head>
 
 <body>
+
   <!-- HELLO -->
 
   <section id="home" class="flex height-fix">
@@ -34,20 +38,16 @@
         <div class="link-wrap">
           <div class="active page-link" dest="home">home</div>
           <div class="page-link" dest="about">about</div>
-          <div class="page-link" dest="portfolio">projects</div>
+          <div class="page-link" dest="projects">projects</div>
           <div class="page-link" dest="contact">contact</div>
-
         </div>
         <i class="mdi mdi-menu"></i>
       </nav>
-
-
-
     </div>
-
   </section>
 
   <!-- ABOUT -->
+
   <section id="about">
     <div class="container flex">
       <div class="header waypoint" data-animation="slide-in-left">ABOUT</div>
@@ -144,7 +144,7 @@
   </section>
 
   <!-- PROJECTS -->
-  <section class="flex" id="portfolio">
+  <section class="flex" id="projects">
 
     <div class="header waypoint" data-animation="slide-in-right">PROJECTS</div>
     <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
@@ -245,7 +245,7 @@
   <section id="contact">
     <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1"
       xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
-      <path d="M0 0 L50 100 L100 0 Z" fill="#F5F5F5"></path>
+      <path d="M0 0 L50 100 L100 0 Z" fill="#d8d8d8"></path>
     </svg>
     <div class="container flex">
       <div class="header waypoint" data-animation="slide-in-left">CONTACT</div>
@@ -254,13 +254,13 @@
         work
         together?</div>
       <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form">
-        <input placeholder="Name" type="text" name="name" required>
-        <input placeholder="Email" type="email" name="email" required>
-        <textarea placeholder="Your Message" type="text" name="message"></textarea>
+        <input placeholder="Name" type="text" name="name" id="name" required>
+        <input placeholder="Email" type="email" id="email" name="email" required>
+        <textarea placeholder="Your Message" type="text" id="message" name="message" required></textarea>
         <div id="success">
           <div>Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span></div>
         </div>
-        <input class="btn-submit" type="submit" id="submit" value=SUBMIT>
+        <input class="btn-submit" type="submit" name="submit" id="submit" value=SUBMIT>
       </form>
     </div>
   </section>
@@ -273,7 +273,7 @@
     <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
 
     <div class="icon-wrap flex row">
-      <a href="https://instagram.com/iamrishan/">
+      <a href="https://instagram.com/iamrishan">
         <div class="flex icon">
           <i class="mdi mdi-instagram"></i>
         </div>

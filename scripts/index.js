@@ -48,18 +48,14 @@ $(function () {
     // Link Highlighting
     if (pos2 > $('#home').offset().top) { highlightLink('home'); }
     if (pos2 > $('#about').offset().top) { highlightLink('about'); }
-    if (pos2 > $('#portfolio').offset().top) { highlightLink('portfolio'); }
-    if (pos2 > $('#contact').offset().top ||
-      pos + $(window).height() === $(document).height()) {
-      highlightLink('contact');
-    }
+    if (pos2 > $('#projects').offset().top) { highlightLink('projects'); }
+    if (pos2 > $('#contact').offset().top) { highlightLink('contact'); }
 
     // Prevent Hover on Scroll
     clearTimeout(lockTimer);
     if (!$('body').hasClass('disable-hover')) {
       $('body').addClass('disable-hover')
     }
-
     lockTimer = setTimeout(function () {
       $('body').removeClass('disable-hover')
     }, 500);
@@ -145,10 +141,14 @@ $(function () {
   $('#contact-form').submit(function (e) {
     e.preventDefault();
 
+    name = $('#name').val();
+    email = $('#email').val();
+    message = $('#message').val();
+
     $.ajax({
-      url: "https://formspree.io/mattwilliams85@gmail.com",
+      url: "https://formspree.io/xzbzjaqw",
       method: "POST",
-      data: { message: $('form').serialize() },
+      data: { name, email, message },
       dataType: "json"
     }).done(function (response) {
       $('#success').addClass('expand');
