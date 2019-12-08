@@ -168,6 +168,7 @@ body {
       color: #fff;
       border-radius: 0px;
       letter-spacing: 1px;
+      font-family: 'Montserrat';
       background: #252934;
     }
 
@@ -213,7 +214,7 @@ nav {
   position: absolute;
   top: 0;
   height: 50px;
-  width: 100%;
+  width: 100vw;
   background: #1B242F;
   text-align: center;
   border-bottom: 2px solid  #252934;
@@ -229,7 +230,7 @@ nav {
       
   nav .link-wrap {
     max-width: 1200px;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     top: 50px;
     background:  #1B242F;
@@ -518,16 +519,7 @@ section {
     section:nth-of-type(5) textarea {
       min-height: 150px;
       margin-bottom: 5px; }
-    section:nth-of-type(5) .button {
-      float: right;
-      margin: 5px 0 0 0;
-      font-size: 12pt;
-      padding: 10px 30px;
-      color: #fff;
-      background: transparent;
-      outline: 0; }
-      section:nth-of-type(5) .button:hover {
-        background: #04C2C9; }
+   
     section:nth-of-type(5) #success {
       height: 0;
       width: 100%;
