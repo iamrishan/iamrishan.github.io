@@ -104,8 +104,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden; }
-
-  #home{
+  
+#home{
     background: #252934;
   }
 
@@ -159,7 +159,6 @@ body {
 .btn-submit {
       padding: 10px 20px;
       border: 2px solid #fff;
-      box-sizing: inherit;
       display: inline-block;
       font-size: 10pt;
       transition: all .5s;
@@ -270,7 +269,6 @@ nav {
 
 
 /* SECTION */
-
 section {
   padding: 70px 0 70px 0;
   color: #616161;
