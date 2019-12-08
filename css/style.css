@@ -673,7 +673,8 @@ footer {
     section:nth-of-type(3) #gallery .mix .card {
       height: 300px; }
     section:nth-of-type(5) form {
-      min-width: 500px; } }
+      min-width: 500px; } 
+    }
 @media screen and (min-width: 960px) {
   .waypoint {
     opacity: 0; }
@@ -743,5 +744,4 @@ footer {
     font-size: 11pt;
     padding: 0 40px;
     margin: 0 25px; }
-
-
+  }
