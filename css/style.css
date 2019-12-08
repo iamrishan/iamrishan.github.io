@@ -263,7 +263,10 @@ nav {
   nav .active {
     color: #04C2C9; }
 
-
+.window {
+  overflow: hidden;
+  position: relative;
+  background: #252934; }
 
 
 /* SECTION */
