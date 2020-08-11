@@ -437,29 +437,17 @@ section {
           background: #04C2C9;
           color: #fff; }
         section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-          background: url("/images/cover.png") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-          background: url("/images/cover.png") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-          background: url("/images/cover.png") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-          background: url("/images/cover.png") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
-          background: url("/images/cover.png") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-          background: url("/images/cover.png") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
-          background: url("/images/cover.png") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
-          background: url("/images/cover.png") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
-          background: url("/images/cover.png") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
-          background: url("/images/cover.png") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
-          background: url("/images/cover.png") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
-          background: url("/images/cover.png") center center/cover; }
+          background: url("/images/covid.jpg") center center/cover; }
+          
+
+          /* BANNER FOR EACH APP OR GAME */
+
+        /* section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
+          background: url("/images/cover.png") center center/cover; } */
+
+       
+        
+
         section:nth-of-type(3) #gallery .mix .card {
           height: 200px !important ;
           max-width: 100%;
