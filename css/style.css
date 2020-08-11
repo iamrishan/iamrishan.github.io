@@ -452,6 +452,7 @@ section {
         section:nth-of-type(3) #gallery .mix .card {
           height: 200px !important ;
           max-width: 100%;
+          width: 100vw;
           cursor: pointer;
           margin: 10px;
           transition: opacity .5s;
