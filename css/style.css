@@ -596,7 +596,7 @@ footer {
 
 @media screen and (max-width: 400px) {
   section:nth-of-type(3) #gallery .mix .card {
-    width: 100vw; } }
+    width: 90vw; } }
 @media screen and (min-width: 600px) {
   body {
     font-size: 12pt; }
