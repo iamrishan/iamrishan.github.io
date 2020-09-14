@@ -440,6 +440,8 @@ section {
         section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
           background: url("/images/covid.jpg") center center/cover; }
 
+          section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
+            background: url("/images/saveit.jpg") center center/cover; }
 
           /* BANNER FOR EACH APP OR GAME */
 
