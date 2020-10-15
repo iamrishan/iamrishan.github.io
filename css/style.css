@@ -443,9 +443,8 @@ section {
         section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
           background: url("/images/saveit.jpg") center center/cover; }
 
-          section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-            background: url("/images/tictactoe.jpg") center center/cover;
-            filter: contrast(150%); }
+        section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
+          background: url("/images/tictactoe.jpg") center center/cover;}
 
           /* BANNER FOR EACH APP OR GAME */
 
