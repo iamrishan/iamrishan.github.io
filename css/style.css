@@ -445,7 +445,7 @@ section {
 
         section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
           background: url("/images/tictactoe.jpg") center center/cover;
-          border: 1px solid;}
+          border: 3px solid #c4c4c4;}
 
           /* BANNER FOR EACH APP OR GAME */
 
